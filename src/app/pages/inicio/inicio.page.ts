@@ -10,7 +10,7 @@ export class InicioPage implements OnInit {
   componentes: Componente[] = [
     {
       icon: 'american-football',
-      name: 'Action Sheet',
+      name: 'Action Sheet1',
       redirectTo: '/action-sheet'
     },
     {
