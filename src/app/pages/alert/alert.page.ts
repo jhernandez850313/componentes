@@ -50,7 +50,7 @@ export class AlertPage implements OnInit {
 
   async presentAlert() {
     const alert = await this.alertCtrl.create({
-      header: 'Alert',
+      header: 'Alerta',
       subHeader: 'Subtitle',
       message: 'This is an alert message.',
       buttons: [
