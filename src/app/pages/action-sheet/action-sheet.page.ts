@@ -13,7 +13,7 @@ export class ActionSheetPage implements OnInit {
   async presentActionSheet() {
     const actionSheet = await this.actionSheetCtrl.create({ // espera hasta que se cree
       header: 'Albums',
-      backdropDismiss: 'false',
+      backdropDismiss: false,
       cssClass: 'my-custom-class',
       buttons: [{
         text: 'Delete',
